@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merging two arrays</title>
+    <title>Merging three arrays</title>
 </head>
 <body>
     <p id="demo"></p>
      <script>
-         const cars = ["BMW", "Roloes Royes", "Yeamaha", "HERO"];
+         const cars = ["BMW", "Rolls Royce", "Yeamaha", "HERO"];
          const bike = ["R15", "Apachi", "RTR", "MK15"];
-         const mycars = cars.concat(bike);
+        const brandcar = ["Ferary", "Freedom", "Lamborghini"]
+         const mycars = cars.concat(bike, brandcar);
          console.log(mycars);
          document.getElementById("demo").innerHTML = mycars;
      </script>
